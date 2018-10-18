@@ -30,13 +30,13 @@ spring:
   datasource:
     druid:
       username: root
-      password: studyj2e
+      password: 1234
       url: jdbc:mysql://127.0.0.1:3306/micro?useUncoide=true&chracterEncoding=utf-8&useSSL=false
       sql-path: sql/ucenter.sql
       master:
         initial-size: 19
         username: root
-        password: studyj2e
+        password: 1234
         url: jdbc:mysql://127.0.0.1:3306/micro?useUncoide=true&chracterEncoding=utf-8&useSSL=false
         sql-path: sql/ucenter.sql
         driver-class-name: com.mysql.jdbc.Driver
